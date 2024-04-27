@@ -41,9 +41,13 @@ Your test results will be executed with 20 virtual users for 40 seconds.
 
 The test results will be displayed in the terminal or in the web dashboard.
 
-![Terminal](resources/summary.jpg)
+### Terminal
+![Terminal](resources/console_summary.jpg)
 
-The most important metrics are:
+### Web Dashboard
+![Web Dashboard](resources/web_dashboard.jpg)
+
+### The most important metrics
 
 - **http_req_duration**: The time it took to complete the request.
 - **http_req_failed**: The number of failed requests.
