@@ -1,6 +1,6 @@
 # Performance Test
 
-This repository contains performance tests examples for web applications.
+This repository contains performance test examples for web applications.
 The test is based on the [Grafana K6](https://k6.io/) tool.
 
 ## How to run the test
@@ -29,7 +29,7 @@ or with web dashboard:
  k6 run examples/homepage_with_basic_auth.js --out web-dashboard
 ```
 
-by default, the test will run with scenario defined in the `confing.js` file, but you can override it with the following command:
+by default, the test will run with scenario defined in the `config.js` file, but you can override it with the following command:
 
 ```bash
  k6 run examples/homepage_with_basic_auth.js --vus 20 --duration 40s
