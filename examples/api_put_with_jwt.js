@@ -1,14 +1,8 @@
-// To run this test, you would execute the following command:
-// On Mac OS X, you can install k6 with Homebrew by running the following command:
-// brew install k6
-// k6 run api_put_with_jwt.js --out web-dashboard
-
-
 import http from 'k6/http';
 import {check} from 'k6';
 import { randomIntBetween } from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
 
-const config = require('./config.js');
+const config = require('../config.js');
 
 const api_login = config.api.url + '/login';
 const api_put_with_jwt = config.api.url + '/profiles';

@@ -1,13 +1,8 @@
-// To run this test, you would execute the following command:
-// On Mac OS X, you can install k6 with Homebrew by running the following command:
-// brew install k6
-// k6 run homepage_with_basic_auth.js --out web-dashboard
-
 import encoding from 'k6/encoding';
 import http from 'k6/http';
 import {check} from 'k6';
 
-const config = require('./config.js');
+const config = require('../config.js');
 
 // Simulation options
 export const options = config.simulation;
